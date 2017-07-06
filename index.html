@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>UWILLX</title>
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/vital-ui-kit.css">
+  <style>
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; } body { line-height:1; } article,aside,canvas,details,figcaption,figure, footer,header,hgroup,menu,nav,section,summary {  display:block; } nav ul { list-style:none; } blockquote, q { quotes:none; } blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; } a { margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline; background:transparent; } ins { background-color:#ff9; color:#000; text-decoration:none; } mark { background-color:#ff9; color:#000;  font-style:italic; font-weight:bold; } del { text-decoration: line-through; } abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help; } table { border-collapse:collapse; border-spacing:0; } hr { display:block; height:1px; border:0;    border-top:1px solid #cccccc; margin:1em 0; padding:0; } input, select { vertical-align:middle; } section, article, aside, header, footer, nav, dialog, figure { display:block; }
+    h1 span{
+      margin-left: 9px;
+    }
+    h1:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      background-color: #B0D683;
+      bottom:-20px;
+      left:50%;
+      right:50%;
+      transition: all 300ms ease-out;
+    }
+    h1:hover:after{
+      left:0px;
+      right:0px;
+    }
+    summary{
+      padding-top: 5px;
+      transition: all 300ms 400ms ease-out;
+      opacity:0;
+      color:#B0D683;
+    }
+    summary p{
+      transition: 500ms 800ms ease-out;
+      opacity:0;
+      color: #999;
+    }
+    h1:hover + summary{
+      opacity:1;
+      transform: translate3d(0,30px,0);
+    }
+    h1:hover + summary p{
+      opacity:1;
+    }
+    .nav-footer li{
+      display: inline-block;
+      position: relative;
+    }
+    .nav-footer .sg-btn:not(:last-child) {
+      margin-right: 5px;
+    }
+    .nav-footer .sg-btn.dribbble {
+      color: #ea4c89;
+    }
+    .nav-footer .sg-btn.dribbble:hover {
+      color: #ffffff;
+      background-color: #ea4c89;
+      border-color: #ea4c89;
+    }
+    .nav-footer .sg-btn.medium {
+      color: #14c767;
+    }
+    .nav-footer .sg-btn.medium:hover {
+      color: #ffffff;
+      background-color: #14c767;
+      border-color: #14c767;
+    }
+    .nav-footer .sg-btn.instagram {
+      color: #f17a36;
+    }
+    .nav-footer .sg-btn.instagram:hover {
+      color: #ffffff;
+      background-color: #f17a36;
+      border-color: #f17a36;
+    }
+  </style>
+
+</head>
+<body>
+  <main style="position: absolute; top:50%;left:50%; transform: translate3d(-50%,-50%,0); text-align: center; max-width: 90%; padding-right: 9px;">
+  <h1 style="font-family: helvetica neue; font-weight: 100; font-size: 120px; position: relative;">UWILL<span>X</span></h1>
+  <summary style="font-family: helvetica neue; font-weight: 200; font-size: 30px; letter-spacing: 0.2em; text-indent: 10px; display: block;">you will experience
+  <p style="font-size: 20px; margin-top:20px;">coming soon</p>
+  </summary>
+  </main>
+  <footer style="position: absolute; bottom: 20px; left:0; right:0; text-align: center; font-family: helvetica neue; font-weight: 100; color: #999;">
+    
+    <ul class="nav-footer">
+      <li>
+        <a class="sg-btn sg-btn-default sg-btn-icon sg-btn-circle sg-btn-large dribbble" href="https://dribbble.com/gss" target="_blank">
+          <i class="fa fa-dribbble"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sg-btn sg-btn-default sg-btn-icon sg-btn-circle sg-btn-large medium" href="https://medium.com/uwillx" target="_blank">
+          <i class="fa fa-medium"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sg-btn sg-btn-default sg-btn-icon sg-btn-circle sg-btn-large instagram" href="https://www.instagram.com/uwillx/" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
